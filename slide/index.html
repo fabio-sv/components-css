@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slide</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/content.css">
 </head>
-<body>
 
+<body>
     <div class="container">
-        <div class="slide">
+        <div class="slide fade">
             <img src="/imagens/iceberg.jpg" alt="">
         </div>
-        <div class="slide">
+        <div class="slide fade">
             <img src="/imagens/montain-1.jpg" alt="">
         </div>
-        <div class="slide">
+        <div class="slide fade">
             <img src="/imagens/montain-2.jpg" alt="">
         </div>
-      
+        <div class="slide fade">
+            <img src="/imagens/montain-3.jpg" alt="">
+        </div>
         <div class="prev" onclick="slideShow(-1)">&#10094;</div>
         <div class="next" onclick="slideShow(1)">&#10095;</div>
     </div>
-
-   
     <div class="box-dot">
         <span class="dot" onclick="toSlide(1)"></span>
         <span class="dot" onclick="toSlide(2)"></span>
         <span class="dot" onclick="toSlide(3)"></span>
+        <span class="dot" onclick="toSlide(4)"></span>
     </div>
-
-    <script src="script.js" ></script>
+    <div class="content">
+        <h1>Slide Show</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur facere dolor doloremque rerum illum
+            iste fugit,
+            ad natus est obcaecati voluptatibus, eaque quam sapiente quidem doloribus? Optio reiciendis soluta esse.
+        </p>
+    </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
