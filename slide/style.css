@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #333;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+    max-width: 1600px;
+    height: 450px;
+    margin: auto;
+}
+
+.slide {
+    width: 100%;
+    position: absolute;  
+}
+
+
+.prev, .next {
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    padding: 8px 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev:hover, .next:hover {
+    transition: 600ms ease;
+    background: rgb(0, 0, 0, 0.8);
+
+}
+
+.next {
+    right: 0;
+}
