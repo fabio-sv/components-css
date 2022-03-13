@@ -1,0 +1,10 @@
+.content {
+    color: #eeee;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content h1 {
+    margin: 15px;
+}
